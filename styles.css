@@ -512,38 +512,156 @@ textarea:focus {
 }
 
 @media (max-width: 560px) {
+  .app-shell {
+    gap: 8px;
+    width: calc(100% - 16px);
+    padding: 8px 0 16px;
+  }
+
   .editor-panel,
   .history-panel {
-    padding: 18px;
+    padding: 14px;
   }
 
   .brand-row,
-  .history-header,
-  .list-tools {
-    align-items: stretch;
-    flex-direction: column;
+  .history-header {
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .brand-row {
+    gap: 8px;
+  }
+
+  .eyebrow {
+    margin-bottom: 3px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
   }
 
   .save-state,
   .stats-strip {
-    align-self: flex-start;
+    min-width: 64px;
+    min-height: 36px;
+    font-size: 0.78rem;
+  }
+
+  .diary-form {
+    gap: 8px;
+  }
+
+  .mood-field {
+    margin-top: 0;
   }
 
   .mood-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 4px;
+    margin-top: 6px;
   }
 
   .mood-option {
-    min-height: 76px;
+    min-height: 62px;
+    gap: 3px;
+    padding: 3px 1px;
+    font-size: 0.62rem;
   }
 
-  .list-tools select {
-    flex-basis: auto;
+  .mood-face {
+    font-size: 1.3rem;
+  }
+
+  textarea {
+    min-height: 72px;
+    padding: 8px;
+    line-height: 1.5;
+  }
+
+  .note-meta {
+    font-size: 0.72rem;
+  }
+
+  .action-row {
+    gap: 6px;
+    margin-top: 2px;
   }
 
   .primary-button,
   .ghost-button {
-    flex: 1 1 150px;
+    min-height: 40px;
+    flex: 1 1 auto;
+    padding: 0 10px;
+    font-size: 0.82rem;
+  }
+
+  .history-panel {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .history-header {
+    order: 0;
+  }
+
+  .entry-list,
+  .empty-state {
+    order: 1;
+  }
+
+  .list-tools {
+    order: 2;
+    gap: 6px;
+    margin: 8px 0;
+  }
+
+  .biorhythm {
+    order: 3;
+  }
+
+  .summary-row {
+    order: 4;
+  }
+
+  .entry-list {
+    max-height: 152px;
+    overflow-y: auto;
+  }
+
+  .entry-card {
+    gap: 8px;
+    padding: 10px;
+  }
+
+  .empty-state {
+    padding: 12px;
+    font-size: 0.86rem;
+  }
+
+  .list-tools select {
+    min-height: 40px;
+    flex-basis: auto;
+  }
+
+  .search-box input {
+    min-height: 40px;
+  }
+
+  .biorhythm {
+    gap: 8px;
+    margin-bottom: 12px;
+    padding: 12px;
+  }
+
+  .rhythm-chart,
+  .rhythm-svg {
+    min-height: 130px;
+    height: 130px;
   }
 }
     
