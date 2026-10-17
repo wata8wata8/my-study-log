@@ -4,9 +4,11 @@ HTML/CSS/JavaScriptとlocalStorageだけで動く、学習の記録を残すア�
 
 日付ごとに学習の調子と「今日の学習メモ」を保存できます。数学の復習や英単語、読書メモなど、学習した内容を短く記録して振り返れます。記録はブラウザのlocalStorageに保存され、同じブラウザで再度開けば確認できます。
 
-## 📱 デモ
+## 📱 GitHub Pagesで公開中
 
-🔗 [https://gigaschool.github.io/tiny-diary/](https://gigaschool.github.io/tiny-diary/)
+この学習ログアプリはGitHub Pagesで公開しています。スマートフォンからも利用できます。
+
+🔗 [学習ログアプリを開く](https://wata8wata8.github.io/my-study-log/)
 
 ![📷 image.png](image.png)
 
@@ -100,4 +102,4 @@ tiny-diary/
 
 ## ライセンス
 
-MIT License
+このアプリはMIT Licenseで公開しています。利用条件は[LICENSEファイル](LICENSE)をご確認ください。
